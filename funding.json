@@ -1,0 +1,111 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Hari Rana",
+    "email": "theevilskeleton@riseup.net",
+    "description": "I’m a 23-year-old transgender developer and content writer from Montréal, Canada, and use any/all pronouns. I’m known as TheEvilSkeleton online, but you can call me Skelly, Tessy, or Tesk for short.\n\nAs a developer, I’m mainly involved in GNOME, and am a GNOME Foundation member since 2022. I currently develop GNOME Calendar as a volunteer and maintain Upscaler.\n\nAs a content writer, I primarily write articles around GNOME and GNOME-adjacent projects, and topics around marginalized groups. Most of these articles are meant for educational purposes, which usually take a few weeks to plan, research, author, and revise.",
+    "webpageUrl": {
+      "url": "https://tesk.page/"
+    }
+  },
+  "projects": [
+    {
+      "guid": "upscaler",
+      "name": "Upscaler",
+      "description": "Upscale and enhance images",
+      "webpageUrl": {
+        "url": "https://tesk.page/upscaler/"
+      },
+      "repositoryUrl": {
+        "url": "https://gitlab.gnome.org/World/Upscaler",
+        "wellKnown": "https://gitlab.gnome.org/World/Upscaler/-/raw/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0-only"
+      ],
+      "tags": [
+        "python",
+        "gtk",
+        "libadwaita",
+        "gnome",
+        "linux",
+        "upscale"
+      ]
+    },
+    {
+      "guid": "personal-website",
+      "name": "Personal website",
+      "description": "Personal website designed for accessibility and content intended for educational use",
+      "webpageUrl": {
+        "url": "https://tesk.page"
+      },
+      "repositoryUrl": {
+        "url": "https://gitlab.com/TheEvilSkeleton/theevilskeleton.gitlab.io",
+        "wellKnown": "https://gitlab.com/TheEvilSkeleton/theevilskeleton.gitlab.io/-/raw/main/src/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:AGPL-3.0",
+        "spdx:CC-BY-SA-4.0"
+      ],
+      "tags": [
+        "jekyll",
+        "linux",
+        "ruby"
+      ]
+    },
+    {
+      "guid": "refine",
+      "name": "Refine",
+      "description": "Tweak various aspects of GNOME",
+      "webpageUrl": {
+        "url": "https://tesk.page/refine/"
+      },
+      "repositoryUrl": {
+        "url": "https://gitlab.gnome.org/TheEvilSkeleton/Refine",
+        "wellKnown": "https://gitlab.gnome.org/TheEvilSkeleton/Refine/-/raw/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0"
+      ],
+      "tags": [
+        "python",
+        "gtk",
+        "libadwaita",
+        "gnome",
+        "linux"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/TheEvilSkeleton"
+      },
+      {
+        "guid": "ko-fi",
+        "type": "payment-provider",
+        "address": "https://ko-fi.com/theevilskeleton"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "video-support",
+        "status": "active",
+        "name": "Video support",
+        "description": "Upscaler currently only supports upscaling images, but I'd like to acquire enough funds to work on video support.",
+        "amount": 1000,
+        "currency": "CAD",
+        "frequency": "one-time",
+        "channels": [
+          "github-sponsors",
+          "ko-fi"
+        ]
+      }
+    ],
+    "history": []
+  }
+}

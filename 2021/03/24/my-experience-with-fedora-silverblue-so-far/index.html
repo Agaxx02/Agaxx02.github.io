@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+
+<head>
+  <link href="/assets/style.css" rel="stylesheet"/>
+
+  
+    <link rel="icon" href="/assets/logo-16x16.png" sizes="16x16" type="image/png"/>
+  
+    <link rel="icon" href="/assets/logo-32x32.png" sizes="32x32" type="image/png"/>
+  
+    <link rel="icon" href="/assets/logo-72x72.png" sizes="72x72" type="image/png"/>
+  
+    <link rel="icon" href="/assets/logo-96x96.png" sizes="96x96" type="image/png"/>
+  
+    <link rel="icon" href="/assets/logo-114x114.png" sizes="114x114" type="image/png"/>
+  
+    <link rel="icon" href="/assets/logo-128x128.png" sizes="128x128" type="image/png"/>
+  
+    <link rel="icon" href="/assets/logo-195x195.png" sizes="195x195" type="image/png"/>
+  
+
+  <link href="https://tesk.page/feed.xml" rel="alternate" title="Dominik Gęgotek" type="application/atom+xml"/>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta content="#ba9cff" name="theme-color"/>
+  <meta name="google-site-verification" content="Lp8ldkXyem8rqHH9hB5ZlDGplTzH5yJHN_pCF3Ri9LU"/>
+  <meta property="twitter:description" content="Fedora Silverblue is an immutable Linux distribution, meaning the state of the operating system (OS) cannot be tampered at all. The OS is read-only, meaning the contents cannot be written by any user, including root. Some directories, such as /etc are read-write however. Each time a change is occured, the distribution will generate a tree (bootable image) in which you can boot from once the tree has been completed.
+
+This page is about my experience with Fedora Silverblue, what I dislike about it and what I like about it. A slight warning that this page is opinionated.
+"/>
+  <meta name="color-scheme" content="dark light"/>
+  <meta name="fediverse:creator" content="@TheEvilSkeleton@social.treehouse.systems" />
+
+  
+    <meta property="article:published_time" content="2021-03-24T00:00:00+01:00"/>
+    <meta property="article:author" content="Dominik Gęgotek"/>
+  
+
+  
+    <meta property="og:image" content="/assets/logo-256x256.webp"/>
+    <meta property="twitter:image" content="/assets/logo-256x256.webp"/>
+  
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>My Experience with Fedora Silverblue so far | Dominik Gęgotek</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="My Experience with Fedora Silverblue so far" />
+<meta name="author" content="Dominik Gęgotek" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Fedora Silverblue is an immutable Linux distribution, meaning the state of the operating system (OS) cannot be tampered at all. The OS is read-only, meaning the contents cannot be written by any user, including root. Some directories, such as /etc are read-write however. Each time a change is occured, the distribution will generate a tree (bootable image) in which you can boot from once the tree has been completed. This page is about my experience with Fedora Silverblue, what I dislike about it and what I like about it. A slight warning that this page is opinionated." />
+<meta property="og:description" content="Fedora Silverblue is an immutable Linux distribution, meaning the state of the operating system (OS) cannot be tampered at all. The OS is read-only, meaning the contents cannot be written by any user, including root. Some directories, such as /etc are read-write however. Each time a change is occured, the distribution will generate a tree (bootable image) in which you can boot from once the tree has been completed. This page is about my experience with Fedora Silverblue, what I dislike about it and what I like about it. A slight warning that this page is opinionated." />
+<link rel="canonical" href="https://tesk.page/2021/03/24/my-experience-with-fedora-silverblue-so-far/" />
+<meta property="og:url" content="https://tesk.page/2021/03/24/my-experience-with-fedora-silverblue-so-far/" />
+<meta property="og:site_name" content="Dominik Gęgotek" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-24T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="My Experience with Fedora Silverblue so far" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Dominik Gęgotek"},"dateModified":"2021-03-24T00:00:00+01:00","datePublished":"2021-03-24T00:00:00+01:00","description":"Fedora Silverblue is an immutable Linux distribution, meaning the state of the operating system (OS) cannot be tampered at all. The OS is read-only, meaning the contents cannot be written by any user, including root. Some directories, such as /etc are read-write however. Each time a change is occured, the distribution will generate a tree (bootable image) in which you can boot from once the tree has been completed. This page is about my experience with Fedora Silverblue, what I dislike about it and what I like about it. A slight warning that this page is opinionated.","headline":"My Experience with Fedora Silverblue so far","mainEntityOfPage":{"@type":"WebPage","@id":"https://tesk.page/2021/03/24/my-experience-with-fedora-silverblue-so-far/"},"url":"https://tesk.page/2021/03/24/my-experience-with-fedora-silverblue-so-far/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+
+<header>
+  <a href="#main" class="skip-navigation" tabindex="0">Skip to Main Content</a>
+  <a href="#footer" class="skip-navigation" tabindex="0">Skip to Footer</a>
+  <nav aria-label="Primary">
+    <div class="header-left">
+      <a href="/">Dominik Gęgotek</a>
+    </div>
+    <div class="header-main">
+      
+
+      
+
+      
+        <a href="/">Home</a>
+      
+
+      
+        
+
+        
+          <a href="/posts/">News</a>
+        
+      
+        
+
+        
+          <a href="/demo/">bubulek</a>
+        
+      
+        
+
+        
+          <a href="/portfolio/">CV</a>
+        
+      
+    </div>
+  </nav>
+</header>
+<main>
+  <article id="main">
+    <header style="view-transition-name: article-header"><p><time datetime="2021-03-24 00:00:00 +0100">Mar 24, 2021</time></p>
+
+      <h1>My Experience with Fedora Silverblue so far</h1>
+    </header>
+
+    
+
+    
+      
+      <section class="toc" aria-labelledby="toc-label">
+        <details class="card">
+          <summary class="big" aria-labelledby="toc-label"><strong id="toc-label">Table of Contents</strong></summary>
+          <nav aria-labelledby="toc-label">
+            <ol id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#introduction">Introduction</a></li>
+<li class="toc-entry toc-h2"><a href="#what-i-dislike-about-it">What I dislike about it</a>
+<ol>
+<li class="toc-entry toc-h3"><a href="#reboots">Reboots</a></li>
+<li class="toc-entry toc-h3"><a href="#learning-curve">Learning Curve</a></li>
+<li class="toc-entry toc-h3"><a href="#fedora-flatpak-remote">Fedora Flatpak Remote</a></li>
+</ol>
+</li>
+<li class="toc-entry toc-h2"><a href="#what-i-like-about-it">What I like about it</a>
+<ol>
+<li class="toc-entry toc-h3"><a href="#rpm-ostree">rpm-ostree</a></li>
+<li class="toc-entry toc-h3"><a href="#flatpak">Flatpak</a></li>
+<li class="toc-entry toc-h3"><a href="#uninterruption">Uninterruption</a></li>
+<li class="toc-entry toc-h3"><a href="#upgrading--downgrading">Upgrading &amp; Downgrading</a></li>
+<li class="toc-entry toc-h3"><a href="#containers">Containers</a></li>
+<li class="toc-entry toc-h3"><a href="#per-user-installation">Per-User installation</a></li>
+<li class="toc-entry toc-h3"><a href="#btrfs">btrfs</a></li>
+</ol>
+</li>
+<li class="toc-entry toc-h2"><a href="#conclusion">Conclusion</a></li>
+</ol>
+          </nav>
+        </details>
+      </section>
+    
+
+    <h2 id="introduction">
+  <span>Introduction<a href="#introduction" class="section-anchor" title="Permalink to “Introduction”" aria-label="Permalink to “Introduction”">§</a></span>
+  
+</h2>
+    
+
+<p>Fedora Silverblue is an immutable Linux distribution, meaning the state of the operating system (OS) cannot be tampered at all. The OS is read-only, meaning the contents cannot be written by any user, including root. Some directories, such as <code class="language-plaintext highlighter-rouge">/etc</code> are read-write however. Each time a change is occured, the distribution will generate a tree (bootable image) in which you can boot from once the tree has been completed.</p>
+
+<p>This page is about my experience with Fedora Silverblue, what I dislike about it and what I like about it. A slight warning that this page is opinionated.</p>
+<h2 id="what-i-dislike-about-it">
+  <span>What I dislike about it<a href="#what-i-dislike-about-it" class="section-anchor" title="Permalink to “What I dislike about it”" aria-label="Permalink to “What I dislike about it”">§</a></span>
+  
+</h2>
+    
+<p>Okay, since I’m the type of person that likes to save the best for last, I am going to start with what I dislike in Fedora Silverblue.</p>
+<h3 id="reboots">
+  <span><del>Reboots</del><a href="#reboots" class="section-anchor" title="Permalink to “Reboots”" aria-label="Permalink to “Reboots”">§</a></span>
+  
+</h3>
+    
+<p><del>It requires a reboot for changes to take effect everytime a package is upgraded, installed or even removed. Since Fedora Silverblue is immutable, it needs to create a new tree with the changes made so the user can then boot from. Fortunately Flatpak mitigates this issue, but it is still an annoyance when you want to install a basic program, like fish, but you are forced to reboot for the change to take effect.</del> This is false! Running <code class="language-plaintext highlighter-rouge">rpm-ostree ex apply-live</code> solves this issue. Credit to <a href="https://lionir.ca/">LionirDeadman</a>.</p>
+<h3 id="learning-curve">
+  <span>Learning Curve<a href="#learning-curve" class="section-anchor" title="Permalink to “Learning Curve”" aria-label="Permalink to “Learning Curve”">§</a></span>
+  
+</h3>
+    
+<p>The learning curve required with the lack of proper documentation is also something I dislike a lot. Sure, everything requires a learning curve, but with Fedora Silverblue, it requires a steeper learning curve. I don’t think this is a major flaw, but pair it with the lack of proper documentation, the learning curve can become far more steeper than it should. Documentation is often half-assed, and Fedora Silverblue’s documentation is no exception. The tools Fedora Silverblue recommends: Toolbox and Podman, also lack proper documentation, which only makes the experience in Fedora Silverblue annoying.</p>
+<h3 id="fedora-flatpak-remote">
+  <span>Fedora Flatpak Remote<a href="#fedora-flatpak-remote" class="section-anchor" title="Permalink to “Fedora Flatpak Remote”" aria-label="Permalink to “Fedora Flatpak Remote”">§</a></span>
+  
+</h3>
+    
+<p>I am personally not fond of Fedora’s Flatpak remote, despite the remote being <a href="https://en.wikipedia.org/wiki/Open_Container_Initiative">OCI</a> compliant which I am a really big fan of, I don’t think Fedora’s Flatpak remote should be used by default, or even at all. I’ve had many issues with packages in that remote, such as using X11’s cursor instead of Adawaita’s and sometimes not even launching. Flathub would be a better option.</p>
+<h2 id="what-i-like-about-it">
+  <span>What I like about it<a href="#what-i-like-about-it" class="section-anchor" title="Permalink to “What I like about it”" aria-label="Permalink to “What I like about it”">§</a></span>
+  
+</h2>
+    
+
+<p>I like its concept and how it’s implemented. Fedora Silverblue uses a technology called OSTree, which is also known as “Git for binaries”. It is used to track binary files, and uses similar terminologies to Git, such as commit, refs and branches, remotes, etc. Thanks to this, I find it very familiar to Git, even though I haven’t used OSTree for a long time.</p>
+<h3 id="rpm-ostree">
+  <span>rpm-ostree<a href="#rpm-ostree" class="section-anchor" title="Permalink to “rpm-ostree”" aria-label="Permalink to “rpm-ostree”">§</a></span>
+  
+</h3>
+    
+<p>rpm-ostree is a package manager of Fedora Silverblue. Just like DNF, the package manager of Fedora Workstation, rpm-ostree lets you install RPM packages on the system. It is essentially the “DNF of OSTree”. Using the normal Fedora repositories, I have access to all the Fedora Workstation packages without needing to implement obscure workarounds; I can also add external repositories like RPM Fusion, repositories from <a href="https://copr.fedorainfracloud.org/">Copr</a> (the PPA of Fedora), and more.</p>
+<h3 id="flatpak">
+  <span>Flatpak<a href="#flatpak" class="section-anchor" title="Permalink to “Flatpak”" aria-label="Permalink to “Flatpak”">§</a></span>
+  
+</h3>
+    
+<p>Fedora Silverblue embraces Flatpak. I personally adore Flatpak because of its Linux (including non-GNU) distribution agnostism, consistent builds, easy permission overrides, and of course, the use of OSTree. Flatpak improves exponentially the experience in Fedora Silverblue, as it doesn’t need the system to be rebooted every time you install a package. Most of the GUI applications I use are available in Flathub, so I hardly need to install anything using rpm-ostree. The sandboxes are very useful as well, since we live in an era where sandboxing is crucial for the end user’s system so it can be used daily to mitigate bugs and to prevent vulnerabilities from spreading, which is something that was always lacking on Linux.</p>
+<h3 id="uninterruption">
+  <span>Uninterruption<a href="#uninterruption" class="section-anchor" title="Permalink to “Uninterruption”" aria-label="Permalink to “Uninterruption”">§</a></span>
+  
+</h3>
+    
+<p>Updates cannot be interrupted. Most Linux distributions have a process of installing, removing, upgrading and sometimes even downgrading packages. If the process of the aformentioned gets interrupted by e.g. crash, or accidentally killing the process midway, it can be fatal to your system. Fedora Silverblue is made to completely solve that issue by generating bootable trees when a change has been done.</p>
+<h3 id="upgrading--downgrading">
+  <span>Upgrading &amp; Downgrading<a href="#upgrading--downgrading" class="section-anchor" title="Permalink to “Upgrading &amp; Downgrading”" aria-label="Permalink to “Upgrading &amp; Downgrading”">§</a></span>
+  
+</h3>
+    
+<p>Upgrading and downgrading are incredibly easy. Upgrading is as simple as running <code class="language-plaintext highlighter-rouge">rpm-ostree upgrade</code>, similar to any other package manager. The main benefit in Fedora Silverblue is that when the new tree is finished, the distribution creates a new snapshot of the older version, which can be used to easily downgrade if something goes wrong. Just a simple <code class="language-plaintext highlighter-rouge">rpm-ostree rollback</code> and your system goes back to what it was before upgrading. You can also use <code class="language-plaintext highlighter-rouge">rpm-ostree rebase</code> to rebase onto the desired ref (branch). Let’s say you want to try Fedora Silverblue Rawhide (bleeding edge Fedora Silverblue), you can run the following to set the remotes up:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span>ostree remote refs fedora | <span class="nb">grep</span> <span class="s2">"x86_64"</span>
+<span class="go">[...]
+fedora:fedora/33/x86_64/silverblue
+fedora:fedora/33/x86_64/testing/silverblue
+fedora:fedora/33/x86_64/updates/silverblue
+fedora:fedora/34/x86_64/silverblue
+fedora:fedora/34/x86_64/testing/silverblue
+fedora:fedora/rawhide/x86_64/atomic-host
+fedora:fedora/rawhide/x86_64/silverblue
+fedora:fedora/rawhide/x86_64/workstation
+fedora:fedora/x86_64/coreos/next
+fedora:fedora/x86_64/coreos/stable
+fedora:fedora/x86_64/coreos/testing
+
+</span><span class="gp">$</span><span class="w"> </span>rpm-ostree rebase fedora:fedora/rawhide/x86_64/silverblue
+<span class="go">[...]
+</span></pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Reboot, and that’s it! You get to use the latest and greatest packages in Fedora Silverblue. If you are not satisfied with Rawhide, all you can do is run <code class="language-plaintext highlighter-rouge">rpm-ostree rollback</code>, then reboot and you are back to your previous setup.</p>
+<h3 id="containers">
+  <span>Containers<a href="#containers" class="section-anchor" title="Permalink to “Containers”" aria-label="Permalink to “Containers”">§</a></span>
+  
+</h3>
+    
+<p>After using Fedora Silverblue for a bit, I started to get interested with containers. Containers are fun to play with, and the amount of benefit one can get is a lot. Podman, a Docker drop-in replacement, Toolbox and systemd-nspawn are all very fun to play with. Toolbox doesn’t require root, which is very beneficial on a security standpoint. I set up Jekyll inside a <a href="https://framagit.org/TheEvilSkeleton/debian-jekyll">Debian container</a>, and aliased <code class="language-plaintext highlighter-rouge">$COMMAND</code> with <code class="language-plaintext highlighter-rouge">toolbox run -c debian-jekyll $COMMAND</code> to make it look like the commands are running on the host system.</p>
+
+<p><strong>Addendum – Aug 8, 2021</strong></p>
+
+<p>I have recently deprecated Debian Jekyll in favor to <a href="https://gitlab.com/TheEvilSkeleton/jekyll-toolbox">Jekyll Toolbox</a>. It is smaller in size, doesn’t contain anything from Debian and now comes with its own <a href="https://gitlab.com/TheEvilSkeleton/jekyll-toolbox/container_registry">images</a>. More information on my <a href="../../07/10/linux-jekyll-toolbox-container.html">blog post</a>.</p>
+<h3 id="per-user-installation">
+  <span>Per-User installation<a href="#per-user-installation" class="section-anchor" title="Permalink to “Per-User installation”" aria-label="Permalink to “Per-User installation”">§</a></span>
+  
+</h3>
+    
+<p>rpm-ostree allows the user to install packages only in their home directory. That is very useful for someone like me, as I want my root partition to be as small as possible, to keep my <code class="language-plaintext highlighter-rouge">/home</code> partition as big as possible for user data. By using traditional package management system, I am forced to install everything on my root partition, which can take megabytes or even gigabytes of storage space on my root partition, which is not what I want. Having it installed in my home directory is very beneficial for space and for portability, since I can just reinstall Fedora Silverblue and reuse my current <code class="language-plaintext highlighter-rouge">/home</code> partition in case I somehow manage to brick it, and still have my data along with my applications installed.</p>
+<h3 id="btrfs">
+  <span>btrfs<a href="#btrfs" class="section-anchor" title="Permalink to “btrfs”" aria-label="Permalink to “btrfs”">§</a></span>
+  
+</h3>
+    
+<p>btrfs became very stable since Linux 5.0, and became the best ext4 drop-in replacement since then. In Fedora 33, they have switched to btrfs by default, which is a really big jump in the Linux desktop, as they were using ext4 since the beginning. openSUSE had switched to btrfs a long time ago and have been contributing to it for a very long time. Fedora followed up a couple of years later by switching to btrfs by default. Fedora Silverblue is no exception, as it got the same treatment as well. btrfs has many optimizations available for SSDs, compared to ext4. It also supports RAID and other modern features.</p>
+<h2 id="conclusion">
+  <span>Conclusion<a href="#conclusion" class="section-anchor" title="Permalink to “Conclusion”" aria-label="Permalink to “Conclusion”">§</a></span>
+  
+</h2>
+    
+<p>I haven’t played around with Fedora Silverblue for so long. I have been using it for a month or two, but I have started playing around with it for a couple of weeks as of time of writing this post. I am fond of Fedora Silverblue, and I love the direction it is heading. I’ve started to get interested with containers and found really fun to play around with them, and got to learn to create Dockerfiles, create containers, etc.</p>
+
+<p>The drawbacks I’ve mentioned earlier are mostly annoyances for me, and not dealbreakers. I don’t install many software on my system, so I don’t have to reboot very often. With trial and error, I can start learning more about containers, and I can simply remove the Fedora Flatpak remote in favor to Flathub.</p>
+
+<p>Prior to Fedora Silverblue, I used to use Fedora Workstation. I stopped liking Fedora Workstation due to the traditional package management. Before Fedora Workstation, I used NixOS, and I liked it for the same reason I like Fedora Silverblue, but I switched from it due to not understanding immutable desktops. As of today, Fedora Silverblue, NixOS and openSUSE are my favorite distributions. The maintainers, developers and contributors of said distributions are innovative in their own way; they come with brilliant ideas and implement them correctly. I want to thank each and every one of the maintainers, developers and contributors that have made those distributions great and innovative.</p>
+
+
+  </article>
+</main>
+<footer id="footer">
+
+  <div>
+    <p>
+      <a href="https://www.reddit.com/r/a:t5_2mg41u/comments/gawa01/internet_explorer_google_chrome_official_art/">Profile picture</a> by <a href="https://linktr.ee/merryweathercomics">MerryweatherComics</a>
+    </p>
+    <p>
+      Website powered by <a href="https://jekyllrb.com">Jekyll</a> • Hosted on <a href="https://about.gitlab.com/stages-devops-lifecycle/pages">GitLab Pages</a>
+    </p>
+  </div>
+
+  <div>
+    <p>
+      🄯 Website <a href="https://gitlab.com/TheEvilSkeleton/theevilskeleton.gitlab.io">code</a> under <span class="no-wrap"><a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL-3.0-only</a></span> • Website content under <span class="no-wrap"><a href="https://creativecommons.org/licenses/by-sa/4.0">CC-BY-SA-4.0</a></span>
+    </p>
+    <p>
+      © 2021 Hari Rana / TheEvilSkeleton and <a href="https://gitlab.com/TheEvilSkeleton/theevilskeleton.gitlab.io/-/graphs/main">contributors</a>
+    </p>
+  </div>
+
+</footer>
+</body>
+</html>

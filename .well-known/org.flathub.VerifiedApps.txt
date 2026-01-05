@@ -1,0 +1,5 @@
+# https://flathub.org/apps/io.gitlab.theevilskeleton.Upscaler
+178d436a-728b-4613-bf0c-2760db7a379a
+
+# https://flathub.org/apps/page.tesk.Refine
+9bd1d6e0-e9a8-4f48-8195-0a90e5b57ed0
