@@ -115,4 +115,4 @@ User-agent: YouBot
 Disallow: /
 
 User-agent: *
-Sitemap: http://tesk.page/sitemap.xml
+Sitemap: http://agnieszkagegotek.eu/sitemap.xml
