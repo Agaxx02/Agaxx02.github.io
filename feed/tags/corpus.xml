@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://agnieszkagegotek.eu/feed/tags/corpus.xml" rel="self" type="application/atom+xml" /><link href="https://agnieszkagegotek.eu/" rel="alternate" type="text/html" /><updated>2026-08-30T10:56:08+02:00</updated><id>https://agnieszkagegotek.eu/feed/tags/corpus.xml</id><title type="html">Agnieszka Gęgotek</title><entry><title type="html">Database linguistics tool #0: Introduction to our projects</title><link href="https://agnieszkagegotek.eu/2026/08/30/introduction_to_our_projects/" rel="alternate" type="text/html" title="Database linguistics tool #0: Introduction to our projects" /><published>2026-08-30T00:00:00+02:00</published><updated>2026-08-30T00:00:00+02:00</updated><id>https://agnieszkagegotek.eu/2026/08/30/introduction_to_our_projects</id><content type="html" xml:base="https://agnieszkagegotek.eu/2026/08/30/introduction_to_our_projects/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>All content in this post is shared under the following license: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> © <a href="https://dominikgegotek.eu/">Dominik Gęgotek</a> and <a href="https://agnieszkagegotek.eu/">Agnieszka Gęgotek</a></p>
+
+<p>The following post will be the introduction to our (Dominik Gęgotek and Agnieszka Gęgotek) current projects. In it we will describe the objectives, intermediate goals and some of the steps that we wish to take in order to achieve our plans. But let’s start from the beginning.</p>
+
+<div class="statements">
+  <section class="card note">
+    <strong class="big">Main goal</strong>
+    <p><p>Our main goal is to study the <strong>communication</strong> process on GitHub to establish how project coordinators can improve their communication skills in order to attract more <strong>volunteers</strong> to contribute and retain the cooperation with them for a long time.</p>
+</p>
+  </section>
+</div>
+
+<h2 id="why-did-we-actually-come-up-with-this-project">Why did we actually come up with this project?</h2>
+
+<p>Since we both had some experience in <strong>software development</strong> on GitHub, we quickly came to a conclusion that the communication there varies from coordinator to coordinator and project to project and since we are <strong>free and open source software</strong> enthusiasts, we wanted to do something that can possibly benefit the community. Thus, we started analysing the communication in open source projects. Our main areas of interests are <strong>sentiment analysis</strong>, <strong>values</strong> and <strong>hedge phrases</strong>. And the main research questions that we wish to answer in our projects are:</p>
+<ul>
+  <li>What <strong>language strategies</strong> are effective in encouraging volunteers to cooperate?</li>
+  <li>What are volunteers’ beliefs about the <strong>directness</strong> of code <strong>feedback</strong>?</li>
+  <li>What are the beliefs of project managers regarding <strong>effective communication</strong> with contributors?</li>
+  <li>How is the balance between <strong>politeness</strong> and <strong>transparency</strong> achieved in code reviews?</li>
+  <li>How are <strong>community values</strong> ​​reflected in the communication process between project managers and volunteers?</li>
+  <li>How is <strong>code evaluation</strong> communicated? How is it perceived by volunteers, depending on the <strong>sentiment</strong> of the statement?</li>
+  <li>How do volunteers perceive their role in developing free software projects in the context of the <strong>values</strong> ​​these projects refer to in their <strong>public profiles</strong> and <strong>ethical codes</strong>?</li>
+  <li>What role do <strong>positive and negative sentiment</strong> play in communication with volunteers?</li>
+</ul>
+
+<h2 id="gathering-data">Gathering data</h2>
+
+<p>To answer them, we obviously needed some data and having previous experience with <strong>corpus analysis</strong>, we decided that we will create a corpus of open source communication using GitHub API. This is because we did not find any existing corpus that would suit our needs. For now, the corpus has about 5 billion words (but we will describe it in more detail in a different post). However, there was one problem with the corpus - none of the existing <strong>corpus tools</strong> that we tested, were a good fit for the analysis we have planned. Therefore, we decided to create our own tool.</p>
+
+<h2 id="corpus-tool">Corpus tool</h2>
+
+<p>Through our previous works we established that <strong>corpus linguistic tools</strong> lack a feature that is rather important for communication in open source projects or in general - that is tracking and querying the <strong>context</strong>. Of course, having common corpus data such as word frequency or collocations is important, but in many cases the full context is also crucial. The meaning of some sentences may change depending on who wrote them - coordinator, a long-time contributor or a person new to a community. The topic of each pull request and issue, date of posting the comment, reactions and responses it received are also important. Therefore, the corpus we are creating will be compiled in a form of a <strong>database</strong>, where each piece of information will have its designated place and can be retrieved if needed. Moreover, the database will be created using <strong>DuckDB</strong> - an open source Relational Database Management System (you can read more about it <a href="https://duckdb.org/">here</a> or in future posts).</p>
+
+<p>The program we aim to create will be based on <strong>database queries</strong> that are well-known in other areas of science and look like this:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="k">SELECT</span> <span class="nv">"comments"</span><span class="p">.</span><span class="n">body</span><span class="p">,</span> <span class="nv">"comments"</span><span class="p">.</span><span class="n">frown_number</span> <span class="k">FROM</span> <span class="nv">"comments"</span> <span class="k">ORDER</span> <span class="k">BY</span> <span class="n">frown_number</span> <span class="k">DESC</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>This query will find all of the comments with the most 🙁 reactions and display them in a descending order.</p>
+
+<h2 id="future-development">Future development</h2>
+
+<p>In the future, we wish to <strong>share</strong> the <strong>database</strong> together with the <strong>tool</strong> through a website for other researchers to use as well. Each user will be able to create their own queries to look for specific words, comments from a given project, etc. At first, the corpus will use only those queries, but in the future we also want to implement a <strong>graphical interface</strong> that will allow users who are not comfortable with the query language to be able to conduct their own studies without the need of learning the SQL language.</p>
+
+<p>That is the main idea behind our project. In the following posts, we will describe updates concerning the <strong>development of the corpus</strong>, <strong>tool</strong> and <strong>methodologies</strong> used for our research.</p>
+
+<p>Have a great day!</p>
+
+<p>Agnieszka and Dominik</p>]]></content><author><name>Agnieszka Gęgotek</name></author><category term="corpus" /><category term="free software" /><category term="linguistics" /><summary type="html"><![CDATA[The following post will be the introduction to our (Dominik Gęgotek and Agnieszka Gęgotek) current projects. In it we will describe the objectives, intermediate goals and some of the steps that we wish to take in order to achieve our plans. But let's start from the beginning.]]></summary></entry></feed>
