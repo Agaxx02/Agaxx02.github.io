@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://agnieszkagegotek.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://agnieszkagegotek.eu/" rel="alternate" type="text/html" /><updated>2026-09-09T14:31:40+02:00</updated><id>https://agnieszkagegotek.eu/feed.xml</id><title type="html">Agnieszka Gęgotek</title><entry><title type="html">Database linguistics tool #0: Introduction to our projects</title><link href="https://agnieszkagegotek.eu/2026/08/30/introduction_to_our_projects/" rel="alternate" type="text/html" title="Database linguistics tool #0: Introduction to our projects" /><published>2026-08-30T00:00:00+02:00</published><updated>2026-08-30T00:00:00+02:00</updated><id>https://agnieszkagegotek.eu/2026/08/30/introduction_to_our_projects</id><content type="html" xml:base="https://agnieszkagegotek.eu/2026/08/30/introduction_to_our_projects/"><![CDATA[<h2 id="introduction">Introduction</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://agnieszkagegotek.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://agnieszkagegotek.eu/" rel="alternate" type="text/html" /><updated>2026-09-11T13:00:50+02:00</updated><id>https://agnieszkagegotek.eu/feed.xml</id><title type="html">Agnieszka Gęgotek</title><entry><title type="html">Database linguistics tool #0: Introduction to our projects</title><link href="https://agnieszkagegotek.eu/2026/08/30/introduction_to_our_projects/" rel="alternate" type="text/html" title="Database linguistics tool #0: Introduction to our projects" /><published>2026-08-30T00:00:00+02:00</published><updated>2026-08-30T00:00:00+02:00</updated><id>https://agnieszkagegotek.eu/2026/08/30/introduction_to_our_projects</id><content type="html" xml:base="https://agnieszkagegotek.eu/2026/08/30/introduction_to_our_projects/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>All content in this post is shared under the following license: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> © <a href="https://dominikgegotek.eu/">Dominik Gęgotek</a> and <a href="https://agnieszkagegotek.eu/">Agnieszka Gęgotek</a></p>
 
@@ -52,10 +52,12 @@
 
 <p>Agnieszka and Dominik</p>]]></content><author><name>Agnieszka Gęgotek</name></author><category term="corpus" /><category term="free software" /><category term="linguistics" /><summary type="html"><![CDATA[The following post will be the introduction to our (Dominik Gęgotek and Agnieszka Gęgotek) current projects. In it we will describe the objectives, intermediate goals and some of the steps that we wish to take in order to achieve our plans. But let's start from the beginning.]]></summary></entry><entry><title type="html">An interview with Richard Stallman</title><link href="https://agnieszkagegotek.eu/2026/08/18/interview-with-richard-stallman/" rel="alternate" type="text/html" title="An interview with Richard Stallman" /><published>2026-08-18T00:00:00+02:00</published><updated>2026-08-18T00:00:00+02:00</updated><id>https://agnieszkagegotek.eu/2026/08/18/interview-with-richard-stallman</id><content type="html" xml:base="https://agnieszkagegotek.eu/2026/08/18/interview-with-richard-stallman/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
-<p>This is an interview with Free Software Movement initiator - Richard Stallman. The interview focuses on communication during free software development and the possible similarities with citizen science initiatives. The interview was conducted from 13 April 2025 to 24 September 2025 through email correspondence. The questions are shared under <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND</a> © <a href="https://www.dominikgegotek.eu/">Dominik Gęgotek</a> and <a href="https://www.agnieszkagegotek.eu/">Agnieszka Gęgotek</a> while the responses are under <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND</a> © <a href="https://stallman.org/">Richard Stallman</a>.</p>
+<p>This is an interview with Free Software Movement initiator - dr. h.c. Richard Stallman. The interview focuses on communication during free software development and the possible similarities with citizen science initiatives. The interview was conducted from 13 April 2025 to 24 September 2025 through email correspondence. The questions are shared under <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND</a> © <a href="https://www.dominikgegotek.eu/">Dominik Gęgotek</a> and <a href="https://www.agnieszkagegotek.eu/">Agnieszka Gęgotek</a> while the responses are under <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND</a> © <a href="https://stallman.org/">Richard Stallman</a>.</p>
+
+<p>If you are interested with the use of ‘per’ and ‘perse’ by Richard Stallman, you can read more <a href="https://www.stallman.org/articles/genderless-pronouns.html">on his personal website</a>.</p>
 
 <h2 id="the-interview">The interview</h2>
-<p>Below is the text of the interview. The questions are preceeded by “Q:” and marked in bold and Richard Stallman’s answers are preceeded with “A:”.</p>
+<p>Below is the text of the interview. The questions are preceeded by “Q:” and marked in bold and Richard Stallman’s answers are preceeded with “A:”. If the questions were quoted by Richard Stallman, they are marked in bold italics.</p>
 
 <p><strong>Q: 1. How would you define free software?</strong></p>
 
@@ -215,4 +217,93 @@ not have an account there.</p>
 
 <p>We urge developers <em>not</em> to host their software on GitHub.  See
 <a href="https://www.gnu.org/software/repo-criteria-evaluation.html">https://www.gnu.org/software/repo-criteria-evaluation.html</a> for more
-details.</p>]]></content><author><name>Agnieszka Gęgotek</name></author><category term="interview" /><category term="free software" /><summary type="html"><![CDATA[This is an interview with Free Software Movement initiator - Richard Stallman. The interview focuses on communication during free software development and the possible similarities with citizen science initiatives. The interview was conducted from 13 April 2025 to 24 September 2025 through email correspondence. The questions are shared under [CC-BY-ND](https://creativecommons.org/licenses/by-nd/4.0/) © [Dominik Gęgotek](https://www.dominikgegotek.eu/) and [Agnieszka Gęgotek](https://www.agnieszkagegotek.eu/) while the responses are under [CC-BY-ND](https://creativecommons.org/licenses/by-nd/4.0/) © [Richard Stallman](https://stallman.org/).]]></summary></entry></feed>
+details.</p>
+
+<p><strong>Q: 11. Simply speaking, do you agree that the study of communication in free
+software would be beneficial (especially on whether people react better to
+less direct, more positive feedback)?</strong></p>
+
+<p>A: I don’t know enough about the study of communication in specific areas
+to formulate an opinion.</p>
+
+<p>I suppose that studying people’s practices in some activity is unlikely to
+do any harm. But I have no way of judging whether it is likely to do good.</p>
+
+<p><strong>Q: 12. Do you think that being polite and respectful to contributors is
+necessary for a free software project to function well?</strong></p>
+
+<p>A: It is very helpful, but I don’t know how to answer the question as
+posed. After all, politeness is a matter of degree, so the alternative of
+“not being polite or respectful” may be an unrealistic extreme.</p>
+
+<p>The GNU Project policy is for package maintainers to thank people for every
+bug report.</p>
+
+<p><strong>Q: 13. Can negative feedback discourage contributors from working on a free
+software project?</strong></p>
+
+<p>A: It can discourage people.</p>
+
+<p><strong>Q: 14. Do you think that providing negative feedback in free software
+projects is necessary?</strong></p>
+
+<p>A: If the question is, “Is it ever necessary to criticize someone’s work,”
+I think criticism must not be ruled out. A would-be contributor can be so
+confused or unfriendly that perse does more harm than good. It may be
+necessary to tell per to stop trying.</p>
+
+<p>However, it is best to try positive feedback first.</p>
+
+<p><strong>Q: 15. Do you think free software projects could benefit from increased
+involvement of researchers from non-technological fields? If yes, in what
+way?</strong></p>
+
+<p>A: The question is too broad for me; it doesn’t lead me to think of
+anything specific. Could you please ask more specific questions?</p>
+
+<p><strong>Q: 15B. Do you think free software projects could benefit from increased
+involvement of researchers from non-technological fields? For instance by:</strong></p>
+
+<ul>
+  <li>
+    <p><strong>increased discussion and use of free software in science and education,</strong></p>
+  </li>
+  <li>
+    <p><strong>conducting research on free software from the perspective of different
+subjects (such as the promotion/advertising of free software projects,
+management in free software projects, communication in free software
+projects, cultural differences of contributors, motivation of contributors,
+accessibility studies, etc.)?</strong></p>
+  </li>
+</ul>
+
+<p>A: I am not sure what concretely that “involvement” would mean, so I can’t
+respond.</p>
+
+<p><strong><em>For instance by:</em></strong>
+<br />
+<strong><em>  &gt; - increased discussion and use of free software in science and
+education,</em></strong></p>
+
+<p>Increased discussion of the moral and political issues of free software in
+any field of activity can enable more people to understand why nonfree
+software is unjust. That might motivate them to try to escape to free
+software.</p>
+
+<p>See <a href="https://gnu.org/philosophy/free-software-even-more-important.html">https://gnu.org/philosophy/free-software-even-more-important.html</a>.</p>
+
+<p><strong><em>  &gt; - conducting research on free software from the perspective of different
+  <br />
+    &gt; subjects (such as the promotion/advertising of free software projects,
+  <br />
+    &gt; management in free software projects, communication in free software
+  <br />
+    &gt; projects, cultural differences of contributors, motivation of
+contributors,
+<br />
+    &gt; accessibility studies, etc.)?</em></strong></p>
+
+<p>They might provide useful ideas sometimes, though I can’t guess how
+often. But do note that most free software projects are not business so
+they don’t do advertising in the usual sense (though they do try to inform
+the public).</p>]]></content><author><name>Agnieszka Gęgotek</name></author><category term="interview" /><category term="free software" /><summary type="html"><![CDATA[This is an interview with Free Software Movement initiator - dr. h.c. Richard Stallman. The interview focuses on communication during free software development and the possible similarities with citizen science initiatives. The interview was conducted from 13 April 2025 to 24 September 2025 through email correspondence. The questions are shared under [CC-BY-ND](https://creativecommons.org/licenses/by-nd/4.0/) © [Dominik Gęgotek](https://www.dominikgegotek.eu/) and [Agnieszka Gęgotek](https://www.agnieszkagegotek.eu/) while the responses are under [CC-BY-ND](https://creativecommons.org/licenses/by-nd/4.0/) © [Richard Stallman](https://stallman.org/).]]></summary></entry></feed>
